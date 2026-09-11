@@ -1,0 +1,6 @@
+{
+  "name": "neko",
+  "private": true,
+  "description": "Neko — mobile agent terminal spec",
+  "type": "module"
+}
