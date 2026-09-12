@@ -4,14 +4,17 @@ Mobile agent terminal (iOS first). The phone attaches to shells and coding agent
 
 This is **not** a web demo and **not** an App Builder sandbox. There is no requirement to bind port 8080 or keep a Vite preview alive.
 
+As of 12 Sep 2026 the interactive spec in `src/` is **complete**. Next work is Phase 0 in `NATIVE.md` (protocol + Go hook). Read `STATUS.md` and `HANDOFF.md` first.
+
 ## Source of truth
 
 1. `NATIVE.md` — architecture, protocol, phases. Follow phase order.
-2. `src/` — interactive web UI. Screens and tokens to port. Not the runtime. Move to `spec/` on the first native commit.
-3. `src/lib/types.ts` — protocol field names.
-4. `src/lib/demo.ts` — golden-path fixtures, not seed data to ship.
-5. `src/lib/themes.ts` — palettes.
-6. `src/lib/pro.ts` — Free vs Pro caps.
+2. `STATUS.md` — what is already built.
+3. `src/` (move to `spec/` on the first native commit) — screens and tokens to port. Not the runtime.
+4. `src/lib/types.ts` — protocol field names.
+5. `src/lib/demo.ts` — golden-path fixtures, not seed data to ship.
+6. `src/lib/themes.ts` — palettes.
+7. `src/lib/pro.ts` — Free vs Pro caps.
 
 ## Stack
 
@@ -29,6 +32,7 @@ This is **not** a web demo and **not** an App Builder sandbox. There is no requi
 - Keep Neko branding (cat mark, themes).
 - Every protocol event in `NATIVE.md` should have a fixture test.
 - Speak in product terms in commit messages.
+- Do not restyle or extend the web spec.
 
 ## First command after clone
 
