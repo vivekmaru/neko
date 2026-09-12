@@ -2,7 +2,7 @@
 
 Neko is a **mobile agent terminal**: a phone (and Watch) client that attaches to shells and coding agents running on *your* machines. The web app in this repo is the **interactive spec** — information architecture, themes, Pro surface, and golden-path UX. It is not the shipping runtime.
 
-Do **not** clone Moshi’s name, mark, copy, or assets. Keep the Neko name, cat mark, and original copy.
+Do **not** clone Moshi’s name, mark, copy, or assets. Keep the Neko name, **alpaca mark**, and original copy.
 
 The web store (`src/lib/store.ts`, `src/lib/demo.ts`) is a **scripted demo**. Native work replaces that with a real hook + transports. Keep the screens; throw away `tick()`.
 
@@ -159,6 +159,8 @@ The hook’s jobs while `run`ning:
 Screens to port from spec (1:1 IA, not 1:1 React): Home, Session, Inbox, Agents, Settings, Watch, Shortcuts, Pro, Host.
 
 Themes: port `src/lib/themes.ts` 1:1. One theme drives chrome **and** terminal.
+
+Brand: port `AlpacaMark` from `src/components/cat-mark.tsx` 1:1 (spear ears, long neck, two block eyes). Do not draw a cat.
 
 ### What not to port
 
