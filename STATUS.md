@@ -10,7 +10,7 @@ Also: themes, Pro caps, push banner, dictation/BYOK gates, auto-attach overlay, 
 
 Store is scripted (`src/lib/store.ts`, `src/lib/demo.ts`). Hosts are fake. Approvals do not touch a real git remote.
 
-Brand: Neko, cat mark, mint accent. Not Moshi.
+Brand: Neko, **alpaca** mark, mint accent. Not Moshi. Not a cat.
 
 Repo docs: `NATIVE.md`, `AGENTS.md`, `GROK_PROMPT.md`, `HANDOFF.md`.
 
@@ -30,6 +30,7 @@ Repo docs: `NATIVE.md`, `AGENTS.md`, `GROK_PROMPT.md`, `HANDOFF.md`.
 1. Move `src/` → `spec/` (reference only).
 2. Add `protocol/` and `hook/`.
 3. Leave the web demo frozen.
+4. Port `AlpacaMark` (in `src/components/cat-mark.tsx`) 1:1 — spear ears, long neck, two block eyes.
 
 ## Do not treat as source of truth
 

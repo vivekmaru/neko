@@ -6,6 +6,8 @@ This is **not** a web demo and **not** an App Builder sandbox. There is no requi
 
 As of 12 Sep 2026 the interactive spec in `src/` is **complete**. Next work is Phase 0 in `NATIVE.md` (protocol + Go hook). Read `STATUS.md` and `HANDOFF.md` first.
 
+Brand mark is an **alpaca** (not a cat). Product name stays Neko.
+
 ## Source of truth
 
 1. `NATIVE.md` — architecture, protocol, phases. Follow phase order.
@@ -29,10 +31,10 @@ As of 12 Sep 2026 the interactive spec in `src/` is **complete**. Next work is P
 - Phase 0 tests before any Swift UI.
 - Do not port `store.ts` `tick()` / fake commands.
 - Do not copy Moshi names, assets, or marketing.
-- Keep Neko branding (cat mark, themes).
+- Keep Neko branding (alpaca mark, themes).
 - Every protocol event in `NATIVE.md` should have a fixture test.
 - Speak in product terms in commit messages.
-- Do not restyle or extend the web spec.
+- Do not restyle or extend the web spec except brand assets when asked.
 
 ## First command after clone
 

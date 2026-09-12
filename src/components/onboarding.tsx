@@ -1,4 +1,4 @@
-import { CatMark } from "@/components/cat-mark";
+import { AlpacaMark } from "@/components/cat-mark";
 import { useNeko } from "@/lib/store";
 
 export function Onboarding() {
@@ -7,14 +7,14 @@ export function Onboarding() {
     <div className="fixed inset-0 z-50 flex flex-col items-center bg-bg text-fg">
       <div className="flex w-full max-w-md flex-1 flex-col justify-end gap-5 p-6 pb-10 lg:justify-center">
         <div className="stagger-in flex flex-col gap-5">
-          <CatMark className="size-16" />
+          <AlpacaMark className="size-16" />
           <div>
             <p className="text-xs font-medium tracking-[0.18em] text-muted uppercase">Neko</p>
             <h1 className="mt-2 text-3xl leading-tight font-semibold tracking-tight">
               A terminal built for phones
             </h1>
             <p className="mt-3 max-w-sm text-sm leading-relaxed text-muted">
-              Watch agents on machines you already run. This preview ships with live demo hosts — Claude, Codex, and Grok Build are already in session.
+              The alpaca in the room — calm, local-first, watching agents on machines you already run. This preview ships with live demo hosts — Claude, Codex, and Grok Build are already in session.
             </p>
           </div>
           <ul className="space-y-2 text-sm text-muted">
